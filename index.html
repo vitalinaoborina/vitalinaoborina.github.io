@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме | Виталина Оборина</title>
+    <!-- Подключение внешнего файла со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo">Vitalina<span>.</span></div>
+            <nav>
+                <a href="#about">Обо мне</a>
+                <a href="#education">Обучение</a>
+                <a href="#skills">Навыки</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран (Обо мне) -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Виталина Оборина <span>Прикладной анализ данных и ИИ</span></h1>
+                </div>
+                <!-- Вместо фотографии теперь красивый неоновый символ кода -->
+                <div class="profile-photo-wrapper" style="display: flex; align-items: center; justify-content: center; width: 280px; height: 280px; border-radius: 50%; border: 3px solid var(--accent-pink); box-shadow: 0 0 30px var(--accent-glow); background-color: var(--card-bg); flex-shrink: 0;">
+                    <span style="font-size: 5rem; font-weight: 700; color: var(--accent-pink); font-family: monospace; text-shadow: 0 0 20px var(--accent-pink); letter-spacing: -5px;">&lt;/&gt;</span>
+                </div>
+            </div>
+            
+            <div class="hero-meta">
+                <p>Привет! Я учусь на разработчика и исследователя данных. Интересуюсь алгоритмами, современными методами искусственного интеллекта и созданием 3D-визуализаций. Всегда открыта к любым интересным предложениям, хакатонам и совместным проектам!</p>
+                <a href="mailto:oborinavitalina@gmail.com" class="btn">Написать мне</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основной блок контента (Сетка информации) -->
+    <section class="content-section" id="education">
+        <div class="container">
+            <h2 class="section-title">Информация</h2>
+            
+            <div class="grid-layout">
+                <!-- Карточка образования (7 колонок в ширину) -->
+                <div class="card card-large">
+                    <div>
+                        <span class="tag">Образование</span>
+                        <h3>НИУ ВШЭ Санкт-Петербург</h3>
+                        <p>Факультет Санкт-Петербургская школа физико-математических и компьютерных наук. Обучаюсь на 1 курсе бакалавриата по престижной программе «Прикладной анализ данных и искусственный интеллект».</p>
+                    </div>
+                    <p style="margin-top: 20px; font-size: 0.85rem;">2026 — Настоящее время</p>
+                </div>
+
+                <!-- Вертикальный плоский пузырек достижений (5 колонок в ширину, вытянут в длину) -->
+                <div class="card card-medium">
+                    <div>
+                        <span class="tag">Главные успехи & Награды</span>
+                        <h3>Конкурсы и Результаты</h3>
+                        <p style="margin-bottom: 16px;">
+                            🏆 В 2026 году успешно сдала единый государственный экзамен, набрав в сумме <strong>289 баллов</strong>.
+                        </p>
+                        <p>
+                            🎨 Являюсь <strong>призером всероссийского чемпионата «Профессионалы»</strong> в компетенции <strong>«Моушн-дизайн»</strong>. Этот опыт помогает мне эффективно объединять сложную аналитику данных с продвинутой визуальной эстетикой.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Карточка увлечений (5 колонок) -->
+                <div class="card card-medium">
+                    <div>
+                        <span class="tag">Спорт & Хобби</span>
+                        <h3>Настольный теннис</h3>
+                        <p>Помимо учебы активно занимаюсь настольным теннисом. Спорт помогает развивать высокую концентрацию, скорость реакции и тактическое мышление, что очень спасает при написании и отладке сложного кода.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка навыки программирования (4 колонки) -->
+                <div class="card card-small" id="skills">
+                    <div>
+                        <span class="tag">Разработка</span>
+                        <h3>Языки программирования</h3>
+                        <p>Активно изучаю и практикуюсь в написании кода на C++ и Python. Разбираю базовые алгоритмы, структуры данных и основы объектно-ориентированного программирования.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 3D (4 колонки) -->
+                <div class="card card-small">
+                    <div>
+                        <span class="tag">Графика</span>
+                        <h3>3D-моделирование</h3>
+                        <p>Владею Blender. Умею создавать трехмерные объекты, настраивать материалы, процедурное освещение и базовую анимацию. Стремлюсь внедрять 3D-решения в веб-интерфейсы.</p>
+                    </div>
+                </div>
+
+                <!-- Карточка контактов (4 колонки) -->
+                <div class="card card-small">
+                    <div>
+                        <span class="tag">Связь</span>
+                        <h3>Контакты</h3>
+                        <ul class="contact-list">
+                            <li><a href="https://t.me" target="_blank">Telegram</a></li>
+                            <li><a href="mailto:oborinavitalina@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer style="padding: 40px 0; border-top: 1px solid #1f222c; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2026 Виталина Оборина. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
